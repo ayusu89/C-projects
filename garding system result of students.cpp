@@ -10,7 +10,7 @@ int main()
 	}
 	else if (marks >=70)
 	{
-		printf("Student gets B grade .");
+		printf("Students gets B grade .");
 	}
 	else if (marks >=55)
 	{
@@ -18,7 +18,7 @@ int main()
 	}
 	else if (marks>=45)
 	{
-		printf("Studenhts gets D grade .");
+		printf("Students gets D grade .");
 	}
 	else if (marks >=32)
 	{
