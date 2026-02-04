@@ -21,7 +21,7 @@ int main()
                 }
 
 
-                    printf("\nSum of odd elements=%d\n",osum);
+                    printf("\nSum of odd elements = %d \n",osum);
 
                     return 0;
 }
