@@ -20,15 +20,15 @@ int main ()
 				}
 			printf("\n");
 		}
-      	printf("Enter the row you want to sum\n");
+      	printf("Enter the column you want to sum\n");
       	scanf("%d",&select);
       	
 
-		for(j=0;j<n;j++)
+		for(i=0;i<m;i++)
 		{
-			sum=sum+arr[select-1][j];
+			sum=sum+arr[i][select-1];
 		}
-	printf(" sum of row = %d",sum);
+	printf(" sum of column= %d",sum);
 
 	
 	return 0;
