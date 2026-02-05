@@ -30,6 +30,6 @@ int main()
                         }
                 }
         }
-    printf("Sum of main diagonal elements : %d\n",msum);
+    printf("Sum of main diagonal  elements : %d\n",msum);
     return 0;
 }

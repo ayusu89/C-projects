@@ -35,7 +35,7 @@ int main ()
 							{
 								arr[i][j]=0;
 							}
-							printf("%d\t",arr[i][j]);
+							printf(" %d\t",arr[i][j]);
 				    }
 		            printf("\n");
 			}
