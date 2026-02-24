@@ -3,7 +3,7 @@
 int main()
 {
 	int *ptr;
-	int i,j,m,n,temp;
+	int i,j,n,temp;
 	printf("Enter the number of elements \n");
 	scanf("%d",&n);
 	ptr = ((int *)calloc(n,sizeof(int)));
@@ -28,9 +28,11 @@ int main()
 		for(j=0;j<n-i-1;j++)
 		{
 			if(*(ptr+j)>*(ptr+j+1)
+			{
 		 temp = *(ptr + j);
             *(ptr + j) = *(ptr + j + 1);
             *(ptr + j + 1) = temp;
+           }
 		}
 	}
 		printf("The elements after sorting are : \n");
