@@ -52,7 +52,7 @@ int main()
         printf("Enter the year of the birthday\n");
         scanf("%d", &emp[i].d.yy);  
 		 fflush(stdin); 
-   
+    
     }
 
     printf("The records of the employee whose birth month is July\n");

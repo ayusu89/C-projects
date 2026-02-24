@@ -55,7 +55,7 @@ int main()
    
     }
 
-    printf("The records of the employee whose address is Kathmandu \n");
+    printf("The records of the employee \n");
     printf("Emp-name\t Address\t Salary\t Department\t DateofBirth\n");
 
     for(i=0;i<2;i++)
