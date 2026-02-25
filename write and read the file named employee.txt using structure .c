@@ -25,6 +25,7 @@ int main()
 		gets(emp[i].name);
 		printf("Enter the address \n");
 		gets(emp[i].address);
+		fflush(stdin);
 		printf("Enter the phone number of the employee \n");
 		scanf("%ld",&emp[i].phone);
 		fflush(stdin);
@@ -37,7 +38,7 @@ int main()
 		fread(&emp,sizeof(emp),2,fptr);
 		for(i=0;i<2;i++)
 		{
-			printf(" \t%s\t%s\t%ld\n",&emp[i].name,&emp[i].address,&emp[i].phone);
+			printf(" \t%s\t%s\t%ld\n",emp[i].name,emp[i].address,emp[i].phone);
 		}
 		
 		fclose(fptr);
