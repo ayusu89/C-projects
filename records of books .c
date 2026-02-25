@@ -32,14 +32,18 @@ int main()
 	fwrite(&b,sizeof(b),2,fptr);
 	rewind(fptr);
 	
-	printf("Records of books \n");
+	printf("Records of books whose price is greater than 300 \n");
 	printf("\tName\tAuthor\tPrice\n");
 	fread(&b,sizeof(b),2,fptr);
 	for(i=0;i<2;i++)
 	{
-		printf("\t%s\t%s\t%f\n",b[i].name,b[i].author,b[i].price);
+		if(b[i].price>300)
+		{
+				printf("\t%s\t%s\t%f\n",b[i].name,b[i].author,b[i].price);
+		}
+	
 	}
-	fclose(fptr);
+	fclose(fptr); 
 	return 0;
 }
 	
